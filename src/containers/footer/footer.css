@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-footer);
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer-heading {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-heading h1 {
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+  color: var(--color-heading1);
+}

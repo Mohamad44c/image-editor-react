@@ -1,0 +1,90 @@
+.editor__container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 1rem 0;
+  height: 70vh;
+}
+
+.tool__column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.image__container {
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.Crop-Controls {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Crop-Controls h1 {
+  font-size: 20px;
+  color: #272727;
+}
+
+.Crop-Controls label {
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  color: #272727;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.Crop-Controls label:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.Crop-Controls input {
+  display: none;
+}
+
+.image__container img {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.image__container h1 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.image-name__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.image-name__container h1 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.canvas__container {
+  /* width: 100%; */
+}
+
+.preview__heading {
+  color: #272727;
+  font-size: 20px;
+}
